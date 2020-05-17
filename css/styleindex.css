@@ -182,8 +182,8 @@ body {
 
 #text5 {
     background-color: rgb(199, 198, 198);
-    width: 1200px;
-    height: 500px;
+    width: 1150px;
+    height: 550px;
     border: 2px solid rgb(33, 190, 211);
     padding: 20px;
     margin: 2px;
@@ -194,8 +194,8 @@ body {
     text-decoration-line: underline;
     text-decoration-style: solid;
     background-color: rgb(199, 198, 198);
-    width: 320px;
-    height: 500px;
+    width: 300px;
+    height: 550px;
     border: 2px solid rgb(33, 190, 211);
     padding: 50px;
     margin: 20px;
@@ -203,7 +203,7 @@ body {
 
   #text6 {
     background-color: rgb(199, 198, 198);
-    width: 1530px;
+    width: 1580px;
     height: 490px;
     border: 2px solid rgb(33, 190, 211);
     padding: 20px;
@@ -211,9 +211,10 @@ body {
 }
 
 #text7 {
+  
   background-color: rgb(199, 198, 198);
-  width: 1530px;
-  height: 800px;
+  width: 1580px;
+  height: 550px;
   border: 2px solid rgb(33, 190, 211);
   padding: 20px;
   margin: 20px;
@@ -222,7 +223,7 @@ body {
 .site-footer
 {
   background-color:#26272b;
-  width: 1530px;
+  width: 1580px;
   height: 330px;
   padding:45px 0 20px;
   font-size:15px;
@@ -388,9 +389,9 @@ body {
 video
 {
     position: absolute;
-    top: 2000px;
-    right: 80px;
-    left: 90px;
+    top: 1500px;
+    right: 350px;
+    left: 250px;
     height: -webkit-calc(50% - 18px);
     height: calc(50% - 18px); 
     display: block;
@@ -509,4 +510,74 @@ video
 	margin-bottom: -10px;
 	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.7);
           box-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+
+
+
+.card-profile {
+ width: 100%;
+ height: 250px;
+ overflow: hidden;
+ display: flex;
+ justify-content: center;
+}
+
+.profile-img {
+ width: 100%;
+ clip-path: ellipse(100px 100px);
+ height: auto;
+ object-fit: cover;
+}
+ 
+.card {
+ width: 300px;
+ height: 400px;
+ margin-top: 40px;
+ margin-left: 80px;
+ position: relative;
+ background-color: white;
+ box-shadow: 1px 1px 1px 1px rgba(0,0,0,0975);
+}
+
+.card-user-data{ 
+ width: 100%;
+}
+  
+.card-user-title { 
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ font-size: 14pt;
+ font-weight: 600;
+}
+ 
+.card-user-desc {
+ margin-left: 15px;
+ margin-right: 15px;
+ margin-top: 15px;
+}
+ 
+.card-profile-pub{ 
+ width: 100%;
+ height: 40px;
+ border-top: 1px solid rgba(0,0,0,0975);
+ display: flex;
+ justify-content: space-evenly;
+ position: absolute;
+ bottom: 0;
+ align-items: center;
+}
+ 
+.content-articles {
+ background-color: white;
+ width: 750px;
+ min-height: 450px;
+ box-shadow: 1px 1px 1px 1px rgba(0,0,0,0975);
+ position: absolute;
+ right: 80px;
+ top: 100px;
+}
+ 
+.content {
+ width: 100vw;
 }
